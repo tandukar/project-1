@@ -3,7 +3,9 @@ body {
   padding: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://images.pexels.com/photos/2272752/pexels-photo-2272752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  /* background: url("/static/images/bg.png") no-repeat; */
+  background-image: url("https://img.freepik.com/free-photo/two-young-beautiful-blond-smiling-hipster-women-trendy-summer-clothes-sexy-carefree-women-posing-near-blue-wall-sunglasses-positive-models_158538-7651.jpg?t=st=1653412601~exp=1653413201~hmac=f4fbcd340b4b2646f3f45f2683335e5fb9cba5e3d7e61f286d3af152f3436722&w=1380");
+
 }
 
 .topnav {
