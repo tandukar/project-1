@@ -1,3 +1,18 @@
 from django.db import models
+from django.forms import Textarea
+from django.contrib.auth.models import User
 
 # Create your models here.
+class Post(models.Model):
+    title = models.CharField(max_length=255) 
+    body =Textarea()
+    price = models.IntegerField(default='',null=False)  
+    Seller=models.ForeignKey(User, on_delete=models.CASCADE)
+    pack_img = models.ImageField(null = True, blank=True, upload_to="pacImages/")
+
+    
+    def __str__(self):
+        return self.title 
+
+    
+ 
