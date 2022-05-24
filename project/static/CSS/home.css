@@ -1,95 +1,95 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* background: url("/static/images/bg.png") no-repeat; */
-  background-image: url("https://img.freepik.com/free-photo/two-young-beautiful-blond-smiling-hipster-women-trendy-summer-clothes-sexy-carefree-women-posing-near-blue-wall-sunglasses-positive-models_158538-7651.jpg?t=st=1653412601~exp=1653413201~hmac=f4fbcd340b4b2646f3f45f2683335e5fb9cba5e3d7e61f286d3af152f3436722&w=1380");
-
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: url("/static/images/bg.png") no-repeat; */
+    background-image: url("https://img.freepik.com/free-photo/two-young-beautiful-blond-smiling-hipster-women-trendy-summer-clothes-sexy-carefree-women-posing-near-blue-wall-sunglasses-positive-models_158538-7651.jpg?t=st=1653412601~exp=1653413201~hmac=f4fbcd340b4b2646f3f45f2683335e5fb9cba5e3d7e61f286d3af152f3436722&w=1380");
 }
 
 .topnav {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .topnav a {
-  float: left;
-  color: #ffffff;
-  text-align: center;
-  padding: 3px 16px;
-  text-decoration: none;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+    /* font-size: 20px; */
 }
 
 ul {
-  list-style-type: none;
-  font-size: 15px;
+    list-style-type: none;
+    font-size: 22px;
 }
 
 .topnav ul li a {
-  position: relative;
-  text-decoration: none;
-
-  color: #ffffff;
-  transition: 0.5s;
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
 }
 
 .topnav-left ul li a::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 3px;
-
-  top: 100%;
-  left: 0;
-  background: #ff7000;
-  transition: transform 0.5s;
-  transform: scaleX(0);
-  transform-origin: right;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 95%;
+    left: 0;
+    background: #ff7000;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
 }
 
 .topnav a:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .topnav-left ul li a:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+    transform: scaleX(1);
+    transform-origin: left;
 }
 
 .topnav-centered a {
-  color: #ffffff;
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 40px;
+    color: #ffffff;
+    margin-top: 9px;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
 }
 
 .topnav-right {
-  float: right;
-  font-size: 17px;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .topnav-left {
-  font-size: 16px;
-  font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
 }
 
+
 /* Responsive navigation menu (for mobile devices) */
+
 @media screen and (max-width: 600px) {
-
-  .topnav a,
-  .topnav-right {
-    float: none;
-    display: block;
-  }
-
-  .topnav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
+    .topnav a,
+    .topnav-right {
+        float: none;
+        display: block;
+    }
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
 }
