@@ -3,8 +3,7 @@ from django.forms import Textarea
 from django.contrib.auth.models import User
 
 
-from django.urls import reverse
-
+from django.urls import reverse 
 
 # Create your models here.
 class Post(models.Model):

@@ -26,5 +26,10 @@ class sellView(CreateView):
     template_name = 'sell.html'
     form_class=PostForm
 
+
+
+class productdetailView(DetailView): 
+    model = Post
+    template_name = 'product_details.html'
    
     

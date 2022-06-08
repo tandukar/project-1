@@ -10,7 +10,7 @@ choices = []
 class PostForm(forms.ModelForm):
     class Meta:
         model = Post # the database they belong to is Post
-        fields = ('title','Seller', 'body', 'price')
+        fields = ('title','Seller', 'body', 'price', 'pack_img')
 
         widgets = {
             'title': forms.TextInput( attrs={'class': 'form-control'}),
