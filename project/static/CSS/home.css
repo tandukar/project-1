@@ -72,6 +72,10 @@ ul {
     font-weight: bold;
 }
 
+.topnav-right a{
+    
+}
+
 .topnav-left {
     font-size: 20px;
     font-weight: bold;
@@ -92,4 +96,46 @@ ul {
         left: 0;
         transform: none;
     }
+}
+
+.content{
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+    font-weight:900;
+    width: 700px;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 270px;
+    left: 150px;
+}
+
+.shop{
+    font-size: 12px;
+    padding: 10px 35px;
+    margin-top: 20px;
+    border: 2px solid #ff7000;
+    /* border: 1px solid #000; */
+    /* border-radius: 12px; */
+    /* font-weight: bolder; */
+    background-color: #fff;
+    color: #ff7000;
+    font-weight: 100;
+    
+}
+
+.shop a:hover{
+    color: #ff7000;
+}
+
+.shop a{
+    /* background-color: #fff; */
+    color: #ff7000;
+    text-decoration: none;
+    
+    
+}
+
+.search{
+    /* float: left; */
+
 }
